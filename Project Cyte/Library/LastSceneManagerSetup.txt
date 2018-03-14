@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/_GAME_.unity
+- path: Assets/Scenes/_LEVI_.unity
   isLoaded: 1
   isActive: 1
