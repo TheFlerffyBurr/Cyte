@@ -1,9 +1,9 @@
-Cyte/[Ll]ibrary
+Project Cyte/[Ll]ibrary
 /[Tt]emp
-Cyte/[Oo]bj
-Cyte/[Bb]uild
-Cyte/[Bb]uilds
-Cyte/Assets/AssetStoreTools*
+Project Cyte/[Oo]bj
+Project Cyte/[Bb]uild
+Project Cyte/[Bb]uilds
+Project Cyte/Assets/AssetStoreTools*
 
 # Visual Studio 2015 cache directory
 /.vs/
@@ -33,8 +33,3 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-
-
-Project Cyte/Library/CurrentLayout.dwlt
-Project 
-Cyte/Library/LastSceneManagerSetup.txt
