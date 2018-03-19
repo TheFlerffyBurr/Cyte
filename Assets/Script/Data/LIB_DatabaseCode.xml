@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LIB_DatabaseCode</name>
+    </assembly>
+    <members>
+        <member name="T:LIB_DatabaseCode.SYSTEM_DATABASE">
+            <summary>
+            Storing class
+            </summary>
+        </member>
+        <member name="T:LIB_DatabaseCode.SYSTEM_DATABASE.DB">
+            <summary>
+            Base clas of a database
+            </summary>
+        </member>
+        <member name="F:LIB_DatabaseCode.SYSTEM_DATABASE.DB._FilePath">
+            <summary>
+            Full path to the file
+            </summary>
+        </member>
+        <member name="F:LIB_DatabaseCode.SYSTEM_DATABASE.DB._FolderPath">
+            <summary>
+            Full folder path
+            </summary>
+        </member>
+        <member name="M:LIB_DatabaseCode.SYSTEM_DATABASE.DB.Init(System.String,System.String[])">
+            <summary>
+            Initialises the database file
+            </summary>
+            <param name="fileName">Name of the text file</param>
+            <param name="folders">All the folders to generate if needed</param>
+        </member>
+        <member name="T:LIB_DatabaseCode.Database">
+            <summary>
+            Base class for new Databases
+            </summary>
+        </member>
+        <member name="M:LIB_DatabaseCode.Database.Init(System.String,System.String[])">
+            <summary>
+            Initialises the database
+            </summary>
+            <param name="fileName">The name of the data file</param>
+            <param name="folders">The folders that will be created and/or initialised</param>
+        </member>
+        <member name="M:LIB_DatabaseCode.Database.Load``1(``0,``0@)">
+            <summary>
+            Loads the file into data for the database given
+            </summary>
+            <param name="database">What database will be loaded</param>
+            <param name="result">The result</param>
+        </member>
+        <member name="M:LIB_DatabaseCode.Database.Save``1(``0)">
+            <summary>
+            Saves the database into the file
+            </summary>
+            <param name="database">What database will be saved</param>
+        </member>
+    </members>
+</doc>
